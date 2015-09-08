@@ -12,9 +12,19 @@ Press "Deploy to Heroku" button and fill in a form to deploy [prpr](https://gith
 
 ## 2. Add dyno
 
-TBD
+Add 1 dyno from [dashboard](https://dashboard-next.heroku.com/apps).
 
-## 3. Fork
+## 3. Setup webhook
+
+Open your github repository's webhook setting, and input lik following.
+
+ * Payload URL: http://prpr.example.com
+ * Content type: application/x-www-form-url-encoded
+ * Which events would you like to trigger this webhook?: send everytihng
+
+![Webhook](https://raw.githubusercontent.com/mzp/prpr/master/docs/webhook.png)
+
+## 4. Fork
 
 Fork this repository if you want to add other plug-ins.
 See https://github.com/mzp/prpr for more details about ruboty and its plug-ins.
