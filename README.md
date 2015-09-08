@@ -3,6 +3,7 @@
 A template to create and deploy your [prpr](https://github.com/mzp/prpr/) on slack.
 
  * Add [incoming webhook](https://standfirm.slack.com/services/new/incoming-webhook) at your team.
+ * Create github access token at [settings](https://github.com/settings/tokens).
 
 ## 1. Deploy
 
@@ -10,11 +11,7 @@ Press "Deploy to Heroku" button and fill in a form to deploy [prpr](https://gith
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## 2. Add dyno
-
-Add 1 dyno from [dashboard](https://dashboard-next.heroku.com/apps).
-
-## 3. Setup webhook
+## 2. Setup webhook
 
 Open your github repository's webhook setting, and input lik following.
 
