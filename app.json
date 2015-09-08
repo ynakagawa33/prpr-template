@@ -4,6 +4,9 @@
     "SLACK_WEBHOOK_URL": {
       "description": "incoming webhook url of slack."
     },
+    "GITHUB_ACCESS_TOKNE": {
+      "description": "github access token for your bot"
+    },
     "TZ": {
       "description": "Timezone.",
       "value": "Asia/Tokyo"
