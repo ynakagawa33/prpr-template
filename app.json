@@ -1,0 +1,14 @@
+{
+  "description": "Prpr is pull requests' reaction bot.",
+  "env": {
+    "SLACK_WEBHOOK_URL": {
+      "description": "incoming webhook url of slack."
+    },
+    "TZ": {
+      "description": "Timezone.",
+      "value": "Asia/Tokyo"
+    }
+  },
+  "keywords": ["bot", "github"],
+  "name": "prpr"
+}
