@@ -1,44 +1,25 @@
 GIT
   remote: git://github.com/mzp/prpr-checklist.git
-  revision: 8f76e34717b19fcc964dc48c6cc9a9adc69cc6b2
+  revision: 40f918e271313daa243d4c8676954763248a1088
   specs:
     prpr-checklist (0.1.0)
 
 GIT
-  remote: git://github.com/mzp/prpr-conflict_label.git
-  revision: a88d99d0c4d37f4fc729b90cf7a55bb230a15b33
-  specs:
-    prpr-conflict_label (0.1.0)
-
-GIT
-  remote: git://github.com/mzp/prpr-gemfile.git
-  revision: ea49fce0579915927a3604e1a4b1d5e1834511ba
-  specs:
-    prpr-gemfile (0.1.0)
-      semverly
-
-GIT
   remote: git://github.com/mzp/prpr-mention_comment.git
-  revision: a1d3fe6b6c9c7a8f8d3f1e1ed8cb76a1bdad4cbd
+  revision: 7a51c3d7dc0384981852c00cbeb6bd864576cc3e
   specs:
     prpr-mention_comment (0.1.0)
 
 GIT
-  remote: git://github.com/mzp/prpr-review_label.git
-  revision: dfa30d53b309cb5885189a407b78ac68c1069185
-  specs:
-    prpr-review_label (0.1.0)
-
-GIT
   remote: git://github.com/mzp/prpr-slack.git
-  revision: a1c003c8a9f3a713c594ea490dcf8093c663bf6c
+  revision: ebae221ba0452440528f328836fa0133c9439d08
   specs:
     prpr-slack (0.1.0)
       slack-notifier
 
 GIT
   remote: git://github.com/mzp/prpr.git
-  revision: c5f86ec2a3a6dc5dcdf61647598e236938f0dff8
+  revision: ec4eaf870e253700c9823ced80b3079e7ad584ef
   specs:
     prpr (0.1.0)
       hashie
@@ -61,7 +42,6 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
-    semverly (1.0.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -75,10 +55,7 @@ PLATFORMS
 DEPENDENCIES
   prpr!
   prpr-checklist!
-  prpr-conflict_label!
-  prpr-gemfile!
   prpr-mention_comment!
-  prpr-review_label!
   prpr-slack!
 
 BUNDLED WITH
