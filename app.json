@@ -10,6 +10,10 @@
     "TZ": {
       "description": "Timezone.",
       "value": "Asia/Tokyo"
+    },
+    "SECRET_TOKEN": {
+      "description": "A secret token for verifying payloads from GitHub.",
+      "generator": "secret"
     }
   },
   "keywords": ["bot", "github"],
