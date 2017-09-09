@@ -13,7 +13,7 @@ Press "Deploy to Heroku" button and fill in a form to deploy [prpr](https://gith
 
 ## 2. Setup webhook
 
-Open your github repository's webhook setting, and input lik following.
+Open your github repository's webhook setting, and input like following.
 
  * Payload URL: http://prpr.example.com
  * Content type: application/x-www-form-url-encoded
