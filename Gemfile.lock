@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/ynakagawa33/prpr-mention_comment.git
+  revision: 451f863965e5606247a160002484ed72cf1c5e3b
+  specs:
+    prpr-mention_comment (0.1.1)
+      prpr
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -15,8 +22,6 @@ GEM
       octokit
       sinatra
     prpr-checklist (0.1.0)
-      prpr
-    prpr-mention_comment (0.1.1)
       prpr
     prpr-slack (0.1.1)
       prpr
@@ -42,7 +47,7 @@ PLATFORMS
 DEPENDENCIES
   prpr
   prpr-checklist
-  prpr-mention_comment
+  prpr-mention_comment!
   prpr-slack
 
 BUNDLED WITH
