@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ynakagawa33/prpr-mention_comment.git
-  revision: 451f863965e5606247a160002484ed72cf1c5e3b
+  revision: dc9e52de215673bcbe259ba842510a024cc33ff5
   specs:
     prpr-mention_comment (0.1.1)
       prpr
@@ -8,12 +8,12 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
+    addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     hashie (3.6.0)
-    multipart-post (2.0.0)
+    multipart-post (2.1.1)
     mustermann (1.0.3)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -30,9 +30,9 @@ GEM
     rack (2.0.7)
     rack-protection (2.0.5)
       rack
-    sawyer (0.8.1)
-      addressable (>= 2.3.5, < 2.6)
-      faraday (~> 0.8, < 1.0)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
     sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
