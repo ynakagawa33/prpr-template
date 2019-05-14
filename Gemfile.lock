@@ -1,9 +1,18 @@
 GIT
   remote: https://github.com/ynakagawa33/prpr-mention_comment.git
-  revision: dc9e52de215673bcbe259ba842510a024cc33ff5
+  revision: 9a19ea5a75b506294d962e98f690ef33e950b099
   specs:
     prpr-mention_comment (0.1.1)
       prpr
+
+GIT
+  remote: https://github.com/ynakagawa33/prpr.git
+  revision: 6d1fb9779171a2f04567b208e23d3f25cd8c5ed8
+  specs:
+    prpr (0.2.0)
+      hashie
+      octokit
+      sinatra
 
 GEM
   remote: https://rubygems.org/
@@ -17,10 +26,6 @@ GEM
     mustermann (1.0.3)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
-    prpr (0.2.0)
-      hashie
-      octokit
-      sinatra
     prpr-checklist (0.1.0)
       prpr
     prpr-slack (0.1.1)
@@ -45,7 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  prpr
+  prpr!
   prpr-checklist
   prpr-mention_comment!
   prpr-slack
