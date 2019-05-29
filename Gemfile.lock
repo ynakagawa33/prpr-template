@@ -1,9 +1,17 @@
 GIT
   remote: https://github.com/ynakagawa33/prpr-mention_comment.git
-  revision: 0321c2050503cc329194a05da4c80dafa0f92f68
+  revision: 7a5cd0d147172f0da38a9633d8228be2cfa26c34
   specs:
     prpr-mention_comment (0.1.1)
       prpr
+
+GIT
+  remote: https://github.com/ynakagawa33/prpr-slack.git
+  revision: 79094d518d964b7bd40d8538d25c53237130a2de
+  specs:
+    prpr-slack (0.1.1)
+      prpr
+      slack-notifier
 
 GEM
   remote: https://rubygems.org/
@@ -23,10 +31,7 @@ GEM
       sinatra
     prpr-checklist (0.1.0)
       prpr
-    prpr-slack (0.1.1)
-      prpr
-      slack-notifier
-    public_suffix (3.0.3)
+    public_suffix (3.1.0)
     rack (2.0.7)
     rack-protection (2.0.5)
       rack
@@ -48,7 +53,7 @@ DEPENDENCIES
   prpr
   prpr-checklist
   prpr-mention_comment!
-  prpr-slack
+  prpr-slack!
 
 BUNDLED WITH
    1.17.3
